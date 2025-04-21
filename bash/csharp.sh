@@ -5,7 +5,7 @@ WINDOW_NAME=$2
 PROJECT_DIR=$HOME/git/$1
  
 select_project() {
-    find "$PROJECT_DIR" -maxdepth 3 -type d | fzf --prompt="Please select a react project:"
+    find "$PROJECT_DIR" -maxdepth 3 -type d | fzf --prompt="Please select a csharp project:"
 }
 
 setup_tmux_session() {
